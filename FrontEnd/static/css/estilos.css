@@ -1,0 +1,73 @@
+body {
+  background-color: #5a480e;
+  color: #ffffff;
+}
+
+.titulo {
+  color: #2cb337;
+  font-weight: bold;
+}
+
+.descripcion {
+  color: #f6f7fc;
+}
+
+.card {
+  background-color: #be9370;
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-prediccion {
+  background-color: #13883e;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-prediccion:hover {
+  background-color: #075222;
+  transform: scale(1.05);
+  color: white;
+}
+
+.preview {
+  max-height: 250px;
+  object-fit: contain;
+}
+
+#resultado {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#resultado h2 {
+  color: #24924c;
+  font-weight: bold;
+}
+
+#resultado h4 {
+  color: #24924c;
+}
+
+.info {
+  color: rgb(102, 72, 27);
+  font-weight: bold;
+}
+
+.valor {
+  color: rgb(61, 52, 42);
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.top-card {
+  transition: 0.3s;
+}
+
+.top-card:hover {
+  transform: translateY(-5px);
+  background-color: rgb(223, 187, 146);
+}

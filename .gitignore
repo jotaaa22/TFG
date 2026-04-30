@@ -1,6 +1,7 @@
 data/
 
 *.pt
+!best.pt
 *.pth
 
 venv/

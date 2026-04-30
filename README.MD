@@ -22,19 +22,19 @@ La aplicación permite al usuario subir imágenes desde local, obtener la predic
 - **Datos de los fósiles**: JSON creado a mano con la información pertinente.
 
 ```bash
-**Cliente web**
+Cliente web
     |
     |
-**frontEnd**
+frontEnd
     |
     |
-**API REST Flask**
+API REST Flask
     |
     |
-**Modelo YOLOv8**
+Modelo YOLOv8
     |
     |
-**Respuesta JSON**
+Respuesta JSON
 ```
 ---
 

@@ -21,6 +21,7 @@ La aplicación permite al usuario subir imágenes desde local, obtener la predic
 - **Modelo de IA**: YOLOv8 (Ultralytics).
 - **Datos de los fósiles**: JSON creado a mano con la información pertinente.
 
+```bash
 **Cliente web**
     |
     |
@@ -34,7 +35,7 @@ La aplicación permite al usuario subir imágenes desde local, obtener la predic
     |
     |
 **Respuesta JSON**
-
+```
 ---
 
 ## Estructura del proyecto

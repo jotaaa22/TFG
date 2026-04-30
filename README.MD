@@ -116,8 +116,6 @@ POST /prediccion
 
 - file: imagen a clasificar
 
----
-
 ### Respuesta
 
 ```json

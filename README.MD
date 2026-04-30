@@ -39,28 +39,29 @@ La aplicación permite al usuario subir imágenes desde local, obtener la predic
 
 ## Estructura del proyecto
 
+```bash
 TFG/
 │
 ├── backEnd/
-│ └── app.py
+│   └── app.py
 │
 ├── frontEnd/
-│ ├── templates/
-│ │ └── index.html
-│ │
-│ └── static/
-│ ├── css/
-│ │ └── estilos.css
-│ ├── js/
-│ │ └── script.js
-│ └── imagenes/
+│   ├── templates/
+│   │   └── index.html
+│   │
+│   └── static/
+│       ├── css/
+│       │   └── estilos.css
+│       ├── js/
+│       │   └── script.js
+│       └── imagenes/
 │
 ├── data/
-│ └── (dataset no incluido)
+│   └── (dataset no incluido)
 │
 ├── modelos/
-│ ├── entrenamiento/
-│ └── inferencia/
+│   ├── entrenamiento/
+│   └── inferencia/
 │
 ├── reentrenamiento/
 │
@@ -70,6 +71,7 @@ TFG/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 

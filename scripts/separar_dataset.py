@@ -7,6 +7,14 @@ OUTPUT_DIR = "data/dataset_procesado"
 
 RATIO_SPLIT = (0.7, 0.2, 0.1)
 
+def rutas_largas(path):
+    path = os.path.abspath(path)
+
+    if os.name == "nt" and not path.startswith("\\\?\\"):
+        return "\\\?\\" + path
+    
+    return path
+
 def crear_carpeta(nombre_carpeta):
     for split in ["train", "val", "test"]:
         path = os.path.join(OUTPUT_DIR, split, nombre_carpeta)
@@ -36,8 +44,14 @@ def procesar_carpeta(nombre_carpeta):
             src = os.path.join(directorio_carpeta, archivo)
             nombre_imagen = f"{nombre_carpeta}_{i}.jpg" #los nombres de algunas imágenes son muy largos -> cambiamos nombre
             dst = os.path.join(OUTPUT_DIR, dividir_nombre, nombre_carpeta, nombre_imagen)
-            shutil.copy2(src, dst)
 
+            try:
+                shutil.copy2(rutas_largas(src), rutas_largas(dst))
+            except FileNotFoundError:
+                print(f"No se encontró el archivo: {src}")
+            except OSError as e:
+                print(f"No se pudo copiar el archivo: {src}")
+                print(e)
     print(f"{nombre_carpeta}: {len(train)} entrenamiento, {len(val)} validación, {len(test)} test")
 
 def main():

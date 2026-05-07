@@ -71,3 +71,12 @@ body {
   transform: translateY(-5px);
   background-color: rgb(223, 187, 146);
 }
+
+.taxonomia {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.taxon {
+  margin: 2px 0 2px 24px;
+}

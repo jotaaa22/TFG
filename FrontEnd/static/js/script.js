@@ -66,6 +66,20 @@ function mostrarResultado(info){
                 <div class="card p-3 mb-3 top-card">
                     <h4>Información</h4>
                     <p><span class="info">Nombre:</span> <span class="valor">${info.info.nombre_esp || "N/A"}</span></p>
+                    <p><span class="info">Tipo:</span> <span class="valor">${info.info.tipo || "N/A"}</span></p>
+                    <div class ="taxonomia">
+                        <p><span class="info">Taxonomía:</span></p>
+                        ${
+                            info.info.taxonomia ? Object.entries(info.info.taxonomia).filter(([clave, valor]) => valor && valor != "N/A").map(([clave, valor]) =>
+                            `<p class="taxon">
+                                <span class="info">${clave.charAt(0).toUpperCase() + clave.slice(1)}:</span>
+                                <span class="valor">${valor}</span>
+                            </p>
+                            `).join("")
+                            : `<p class="taxon"><span class="valor">N/A</span></p>`
+                        }
+                    </div>
+                    <p><span class="info">Época:</span> <span class="valor">${info.info.epoca || "N/A"}</span></p>
                     <p><span class="info">Descripción:</span> <span class="valor">${info.info.descripcion || "N/A"}</span></p>
                     <p><span class="info">Características:</span> <span class="valor">${info.info.caracteristicas || "N/A"}</span></p>
                 </div>

@@ -1,4 +1,277 @@
 {
+    "agnatha":{
+        "nombre_esp": "Agnatos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Chordata",
+            "clase": "No especificada"
+        },
+        "epoca": "Cámbrico inferior - Actualidad",
+        "descripcion": "Los agnatos son peces que carecen de mandíbulas.",
+        "caracteristicas": "Los agnatos forman parte de las tres super clases que conforman lo que comunmente denominamos como peces. Actualmente está conformado por las lampreas y los mixinos. Ambas familias comparten muy pocas características en común, siendo esta la falta de mandíbula y sus cuerpos alargados."
+    },
+
+    "ammonoid":{
+        "nombre_esp": "Ammonoideos/Amonites",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Mollusca",
+            "clase": "Cephalopoda"
+        },
+        "epoca": "Devónico - Cretácico",
+        "descripcion": "Los ammonoideos son cefalópodos que cuentan con una concha en forma de espiral o rectas.",
+        "caracteristicas": "Los amonites son parecidos a los nautiloides, pero se diferencian de ellos por las suturas dentadas y complejas que se forman cuando las paredes internas que dividen la concha entran en contacto con la pared exterior de esta misma. Esta concha estaba dividida en dos partes: el fragmocono y la cámara interior."
+    },
+
+    "amphibian":{
+        "nombre_esp": "Anfibios",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Chordata",
+            "clase": "Amphibia"
+        },
+        "epoca": "Carbonífero - Actualidad",
+        "descripcion": "Los anfibios son animales adaptados tanto a la vida acuática como terrestre.",
+        "caracteristicas": "Los anfibios son el primer grupo de vertebrados que se adaptaron a la vida fuera del agua, aunque no la abandonaron por completo. Son animales que sufren una transformación al pasar de la etapa larval a su etapa adulta, llamada metamorfosis. Los anfibios colocan sus huevos en zonas de aguas, debido a que las larvas son completamente acuáticas. Los anfibios actuales comparten como rasgo común su respiración vía cutánea."
+    },
+
+    "angiosperm":{
+        "nombre_esp": "Angiospermas",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Plantae",
+            "filo": "No especificada",
+            "clase": "No especificada"
+        },
+        "epoca": "Cretácico - Actualidad",
+        "descripcion": "Las angiospermas son plantas que poseen semilla y fruto.",
+        "caracteristicas": "Las angiospermas forman la mayor parte del reino Plantae, formandolo junto a su familia hermana las gymnospermas. Estas plantas poseen flores, las cuales poseen los órganos reproductores femeninos y masculinos de la planta. Poseen células especializadas que desempeñan funciones específicas dentro del organismo."
+    },
+
+    "avialae":{
+        "nombre_esp": "Aviales",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Chordata",
+            "clase": "Sauropsida"
+        },
+        "epoca": "Jurásico Superior - Actualidad",
+        "descripcion": "Los aviales son el grupo de animales que engloban a todas las aves.",
+        "caracteristicas": "El término 'avial' hace referencia a todas las aves modernas junto a aquellos dinosaurios terópodos maniraptoridos más emparentados con las aves que con los deinonicosaurios. Dentro de esta definición, encontramos al ejemplar más famoso y basal de la familia: Archaeopteryx."
+    },
+
+    "belemnite":{
+        "nombre_esp": "Belemnites",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Mollusca",
+            "clase": "Cephalopoda"
+        },
+        "epoca": "Devónico - Cretácico",
+        "descripcion": "Los belemnite son un grupo de cefalópodos de apariencia similar a los calamares y las sepias.",
+        "caracteristicas": "Estos animales contaban con un cuerpo alargado en forma de bala en la mayoría de sus especímenes. Este cuerpo contaba con una concha interna la cual estaba recubierta por piel y músculo, en contra parte de los amonites. Al igual que los calamares, estos contaban con sacos de tinta para evadirse de sus depredadores."
+    },
+
+    "bivalve":{
+        "nombre_esp": "Bivalvos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Mollusca",
+            "clase": "Bivalvia"
+        },
+        "epoca": "Cámbrico inferior - Actualidad",
+        "descripcion": "Los bivalvos son aquellos moluscos que poseen una concha dividida en dos valvas laterales.",
+        "caracteristicas": "La concha de los bivalvos puede presentar varias formas, lo que ayuda también a su clasificación dentro de la misma clase. Poseen un músculo que funciona como pie, aunque en algunas especies este músculo se encuentra muy reducido. Las características tanto de la concha como de su cuerpo están estrechamente ligadas a sus hábitats y su forma de vida."
+    },
+
+    "blastoid":{
+        "nombre_esp": "Blastoides",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Echinodermata",
+            "clase": "Blastoidea"
+        },
+        "epoca": "Ordovícico - Pérmico",
+        "descripcion": "Los blastoides son animales ya extintos emparentados con las estrellas de mar.",
+        "caracteristicas": "Los blastoides se trataban de animales sedentarios, los cuales contaban con un cuerpo formado por un conjunto de placas de calcio unidas entre sí con una clara simetría pentarradial. Esta estaba situada en la parte final de un tallo por el cual se mantenían sujetos al lecho marino."
+    },
+
+    "bone_fragment":{
+        "nombre_esp": "Fragmento de huesos fósil",
+        "tipo": "resto_fosil",
+        "taxonomia": {
+            "reino": "No especificada",
+            "filo": "No especificada",
+            "clase": "No especificada"
+        },
+        "epoca": "No especificada",
+        "descripcion": "Fragmentos de hueso fosilizado.",
+        "caracteristicas": "Se trata de fragmentos de huesos que han sufrido un proceso de fosilización."
+    },
+
+    "brachiopod":{
+        "nombre_esp": "Braquiópodos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Brachiopoda",
+            "clase": "No especificada"
+        },
+        "epoca": "Cámbrico inferior - Actualidad",
+        "descripcion": "Animales similares a los bivalvos, pero con las valvas distribuidas de arriba a abajo.",
+        "caracteristicas": "Los braquiópodos son animales que viven en tanto enterradas en el lecho marino como pegadas a superficies duras con la ayuda del pendúculo. Tradicionalmente, los braquiópodos se clasifican en dos clases: Articulata e Inarticulata."
+    },
+
+    "bryozoan":{
+        "nombre_esp": "Briozoos/Ectoproctos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Bryozoa/Ectoprocta",
+            "clase": "No especificada"
+        },
+        "epoca": "Cámbrico superior - Actualidad",
+        "descripcion": "Animales coloniales que poseen el ano expuesto al exterior.",
+        "caracteristicas": "Los briozoos son mayoritariamente animales marinos, encontrándose muy pocos ejemplares en agua dulce. Poseen una corona de tentáculos mediante los cuales se alimentan. El ano de estos animales se abre justo fuera de esta corona tentacular."
+    },
+
+    "chelicerate":{
+        "nombre_esp": "Quelicerados",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Arthropoda",
+            "clase": "No especificada"
+        },
+        "epoca": "Cámbrico - Actualidad",
+        "descripcion": "Artrópodos los cuales, a diferencia de otros artrópodos, carecen de antenas y mandíbulas.",
+        "caracteristicas": "Los quelicéridos tienen el cuerpo dividido en dos partes principales: anterior y posterior. La parte anterior suele estar recubierta por un escudo, y consta del acron presegmentario y 6 segmentos. Esta parte consta de quelíceros, pedipalpos y 4 pares de piernas. La parte posterior está formada por hasta un total de 12 segmentos y el telson."
+    },
+
+    "chondrichthyes":{
+        "nombre_esp": "Condríctios",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Chordata",
+            "clase": "Chondrichthyes"
+        },
+        "epoca": "Silúrico - Actualidad",
+        "descripcion": "Animales vertebrados acuáticos cuya estructura ósea está formada por cartílago.",
+        "caracteristicas": "El grupo de los condríctios engloba todos los tiburones, rayas, mantas y quimeras. Es uno de los grupos más antiguos que siguen vivos a día de hoy, ya que ya existían desde la epoca de los dinosaurios. A diferencia que los peces óseos, los condrictios no poseen vejiga natatoria, por lo que se ven obligados a mantener un nado constante."
+    },
+
+    "conodont":{
+        "nombre_esp": "Conodontos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Chordata",
+            "clase": "Conodonta"
+        },
+        "epoca": "Cámbrico Medio - Triásico",
+        "descripcion": "Animales invertebrados marinos ya extintos.",
+        "caracteristicas": "Los conodontos tenían un aspecto parecido al de las anguilas actuales. Sus fósiles se utilizan tanto como medida de definición temporal como termómetro paleontológico."
+    },
+
+    "coral":{
+        "nombre_esp": "Corales",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Cnidaria",
+            "clase": "Anthozoa"
+        },
+        "epoca": "Cámbrico - Actualidad",
+        "descripcion": "Animales invertebrados marinos cuyo exoesqueleto tiene apariencia rocosa.",
+        "caracteristicas": "Los corales engloban varios tipos a su nombre, y se dividen en dos sub-clases: Hexacorallia y Octocorallia. Según su alimentación, también los podemos dividir corales fotosintéticos o no fotosintéticos."
+    },
+
+    "crinoid":{
+        "nombre_esp": "Crionoideos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Echinodermata",
+            "clase": "Crinoidea"
+        },
+        "epoca": "Ordovícico inferior - Actualidad",
+        "descripcion": "Animales equinodermos vivos más antiguos.",
+        "caracteristicas": "Debido a la forma que presentan, también son llamados 'lirios marinos'. Algunos de ellos poseen un miembro, pedúnculo, por el cual se mantienen sujetos al lecho marino. Los que carecen de él, se desplazan de manera lenta por el fondo del mar. Los brazos de estos animales poseen una especie de espinas denominadas como pínnulas."
+    },
+
+    "crocodylomorph":{
+        "nombre_esp": "Cocodrilomorfos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Chordata",
+            "clase": "Sauropsida"
+        },
+        "epoca": "Carniense (Triásico Superior) - Actualidad",
+        "descripcion": "Grupo de reptiles que incluye tanto los cocodrilos como a grupos ya extintos similares.",
+        "caracteristicas": "Al principio de su desarrollo, los cocodrilomorfos ocupaban un territorio mayoritariamente terreste, por lo que poseían patas largas y fuertes en contraparte de los cocodrilos que podemos observar hoy en día. Son parientes de los dinosaurios y, antes del apogeo de estos últimos, fueron los depredadores apex del triásico."
+    },
+
+    "crustacean":{
+        "nombre_esp": "Crustáceos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Arthropoda",
+            "clase": "No especificada"
+        },
+        "epoca": "Cámbrico - Actualidad",
+        "descripcion": "Animales artrópodos mayoritariamente adaptados a la vida acuática.",
+        "caracteristicas": "A diferencia que otros artrópodos, los crustáceos si que cuentan con anténulas y antenas, así como apéndices que funcionan como mandíbulas y un par de maxilias. Poseen un exoesqueleto articulado formado por quitina."
+    },
+
+    "echinoid":{
+        "nombre_esp": "Equinoides",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Echinodermata",
+            "clase": "Echinoidea"
+        },
+        "epoca": "Ordovícico Superior - Actualidad",
+        "descripcion": "Animales invertebrados conocidos como erizos de mar.",
+        "caracteristicas": "Los erizos de mar se caracterizan por su cuerpo rodeado por espinas. Cuentan con un sistema acuífero del que salen los pies ambulacrales que permiten su movimiento, la caza y la respiración. Poseen una reproducción sexual."
+    },
+
+    "foraminifer":{
+        "nombre_esp": "Foraminíferos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Protista",
+            "filo": "Foraminifera",
+            "clase": "No especificada"
+        },
+        "epoca": "Ediacárico - Actualidad",
+        "descripcion": "Organismo unicelular acuático que cuentan con una concha.",
+        "caracteristicas": "Los foraminíferos habitaban todas las aguas marinas, aunque algunos se han encontrado en lechos de agua dulce. Sus fósiles sirven para identificar la datación geológica del lugar en donde son hallados, llegando a ser el microfósil más importante que se puede encontrar."
+    },
+
+    "gastropod":{
+        "nombre_esp": "Gastrópodos",
+        "tipo": "organismo",
+        "taxonomia": {
+            "reino": "Animalia",
+            "filo": "Mollusca",
+            "clase": "Gastropoda"
+        },
+        "epoca": "Cámbrico - Actualidad",
+        "descripcion": "Animal invertebrado que suelen poseen una concha en la que se resguardan.",
+        "caracteristicas": "Los gastrópodos constituyen a los caracoles y las babosas, tanto marinas como terrestres, así como a las lapas, las orejas y las liebres de mar. La principal característica de los gastrópodos es la torsión, proceso por el cual su masa visceral gira sobre el pie y la cabeza durante el desarrollo del individuo. Se desplazan mediante su pie musculoso."
+    },
+    
     "graptolite":{
         "nombre_esp": "Graptolitos",
         "tipo": "organismo",
@@ -7,7 +280,7 @@
             "filo": "Hemichordata",
             "clase": "Graptolithina"
         },
-        "época": "Cámbrico superior - Carbonífero inferior",
+        "epoca": "Cámbrico superior - Carbonífero inferior",
         "descripcion": "Los graptolitos eran animales coloniales que vivían en entornos marinos paleozoicos.",
         "caracteristicas": "Los graptolitos poseían simetría bilateral y estructuras semejantes a tentáculos. Cada colonia de ellos tenía un número de ramas que se originaban desde el individuo inicial. Los individuos que seguían del primero se encuentran en una estructura con forma de tubo."
     },
@@ -20,7 +293,7 @@
             "filo": "Pinophyta, Cycadophyta, Ginkgophyta, Gnetophyta",
             "clase": "No especificada"
         },
-        "época": "Carbonífero - Actualidad",
+        "epoca": "Carbonífero - Actualidad",
         "descripcion": "Las gimnospermas son aquellas plantas vasculares que carecen de fruto para su reproducción, ya que su semilla está expuesta.",
         "caracteristicas": "La mayoría de las gimnospermas poseen hojas de tipo perenne, siendo así que sus hojas poseen forma de aguja o escamas. Se encuentran en todas partes del mundo, especialmente en las regiones frías. Su rasgo diferenciativo de su familia hermana, las angiospermas, es que carecen de fruto."
     },
@@ -33,7 +306,7 @@
             "filo": "Arthropoda",
             "clase": "Insecta"
         },
-        "época": "Devónico (Fameniense) - Actualidad",
+        "epoca": "Devónico (Fameniense) - Actualidad",
         "descripcion": "Los insectos son aquellos animales invertebrados de pequeño tamaño que poseen un cuerpo segmentado en 3 partes, piernas articuladas y un exoesqueleto que cubre todo su cuerpo.",
         "caracteristicas": "El cuerpo de los insectos está dividido en 3 partes: la cabeza, el tórax y el abdomen. Su cabeza está formada por un par de antenas, ojos y aparatos bucales, que en función del insecto, cumplen un rol u otro. En el tórax se encuentran alojadas tres pares de piernas y, generalmente, también pueden ubicarse un par de alas. Por último, el abdomen contiene los órganos digestivos del animal, así como los excretores y reproductores."
     },
@@ -46,7 +319,7 @@
             "filo": "Chordata",
             "clase": "Mammalia"
         },
-        "época": "Carniense (Triásico Superior) - Actualidad",
+        "epoca": "Carniense (Triásico Superior) - Actualidad",
         "descripcion": "Los mamíferos son aquellos animales vertebrados que poseen glándulas mamarias con las que alimentan a sus crías, tienen pelo o pelaje y cuentan con tres huesos ubicados en el oído medio, los cuales transmiten el sonido.",
         "caracteristicas": "Salvo excepciones, los mamíferos son vivíparos. Son los únicos miembros que existen a día de hoy del clado Synapsida. Están distribuidos globalmente y tienen adaptaciones para la vida terrestre, acuática y algunos para la vida aérea como los murciélagos. Tienen capacidad de comunicación y de organización para vivir en sociedades, aunque no siempre es el caso."
     },
@@ -59,7 +332,7 @@
             "filo": "Chordata",
             "clase": "Mammalia"
         },
-        "época": "Carniense (Triásico Superior) - Actualidad",
+        "epoca": "Carniense (Triásico Superior) - Actualidad",
         "descripcion": "Restos dentarios de mamíferos",
         "caracteristicas": "Debido a la variedad de hábitos alimentarios de los mamíferos, los dientes están especializados en función de su dieta y su manera de alimentarse."
     },
@@ -72,7 +345,7 @@
             "filo": "Chordata",
             "clase": "Reptilia"
         },
-        "época": "Carbonífero - Actualidad",
+        "epoca": "Carbonífero - Actualidad",
         "descripcion": "Los reptiles marinos son aquellos reptiles que con el paso del tiempo fueron desarrollando caracteristicas anatómicas que les permitieron llevar una vida acuática o semiacuática en los océanos y mares.",
         "caracteristicas": "Los reptiles marinos, pese a su adaptación al agua, siguen respirando oxígeno mediante pulmones. La mayor parte de los grupos que conforman los reptiles marinos están extintos, como lo son Icthyosauria, Plesiosauria o Nothosauria. Los reptiles marinos actuales son mayoritariamente ovíparos, sin embargo los reptiles marinos prehistóricos como los ictiosaurios eran vivíparos."
     },
@@ -85,7 +358,7 @@
             "filo": "Arthropoda",
             "clase": "Chilopoda, Diplopoda, Pauropoda, Symphyla"
         },
-        "época": "Silúrico - Actualidad",
+        "epoca": "Silúrico - Actualidad",
         "descripcion": "Los miriápodos son artrópodos mandibulados terrestres los cuales poseen un gran número de patas.",
         "caracteristicas": "Los miriápodos, a diferencia de los insectos, tienen su cuerpo repartido en 2 zonas: la cabeza y el tronco. La cabeza cuenta con dos pares de maxilas y las antenas, mientras que el tronco está dividido en varios segmentos, cada uno con un par de patas en los laterales."
     },
@@ -98,7 +371,7 @@
             "filo": "Mollusca",
             "clase": "Cephalopoda"
         },
-        "época": "Cámbrico tardío - Actualidad",
+        "epoca": "Cámbrico tardío - Actualidad",
         "descripcion": "Los nautiloides son cefalópodos que poseen una concha externa como la de los moluscos.",
         "caracteristicas": "Los nautiloides cuentan con una concha externa similar a la de los moluscos, la cual suele desaparecer en los cefalópodos. Esta concha, cuando aparecieron a principios del Paleozoico, presentaba varias formas diferentes. A su vez, cuentan con 1 par de branquias en cada lado. Fueron unos de los principales depredadores de su tiempo."
     },
@@ -111,7 +384,7 @@
             "filo": "Echinodermata",
             "clase": "Ophiuroidea"
         },
-        "época": "Ordovícico - Actualidad",
+        "epoca": "Ordovícico - Actualidad",
         "descripcion": "Los ofiuroideos son similares a las estrellas de mar, debido a su estrecha relación. Poseen 5 brazos, los cuales nacen desde un disco central.",
         "caracteristicas": "Los ofiuroideos, u ofiuras, tienen tamaños que rondan entre los 5 y los 60 centímetros. Constan de un cuerpo pequeño conformado por el disco central y 5 brazos articulados y lisos que salen desde el mismo. En el disco central se encuentra la boca, la cual está formada por un conjunto de 5 placas que se mueven simulando una mandíbula."
     },
@@ -124,7 +397,7 @@
             "filo": "Chordata",
             "clase": "Sauropsida"
         },
-        "época": "Triásico superior - Cretácico superior",
+        "epoca": "Triásico superior - Cretácico superior",
         "descripcion": "Los ornitisquios son uno de los dos grandes grupos en los que se dividen los dinosaurios, siendo el otro grupo los saurisquios.",
         "caracteristicas": "Lo que diferencia a los ornitisquios de los saurisquios es la forma de las caderas. Los ornitisquios tenían las caderas con una forma igual al de las aves, de ahí el significado en griego de su nombre. Otra característica es que todos ellos eran herbívoros, desarrollando así una dentadura especializada que se asemeja a algunos de los actuales ungulados, así como otras caracteristicas similares."
     },
@@ -137,7 +410,7 @@
             "filo": "Chordata",
             "clase": "No especificada"
         },
-        "época": "Silúrico Superior - Actualidad",
+        "epoca": "Silúrico Superior - Actualidad",
         "descripcion": "Los osteíctios son uno de los dos grandes grupos de peces que existen, junto a los condrictios.",
         "caracteristicas": "Los osteíctios son aquellos peces que poseen una estructura ósea interna y de muy poca cantidad de cartílago. Se dividen en dos clases: los actinopterigios y los sarcopterigios. Poseen 2 pares de aletas, unas pelvianas y otras torácicas, una o varias aletas que se encuentran en los laterales o en la zona anal y una aleta caudal."
     },
@@ -150,7 +423,7 @@
             "filo": "Arthropoda",
             "clase": "Ostracoda"
         },
-        "época": "Ordovícico - Actualidad",
+        "epoca": "Ordovícico - Actualidad",
         "descripcion": "Los ostrácodos se tratan de crustáceos de tamaño pequeño o incluso llegando a tamaños microscópicos.",
         "caracteristicas": "Los ostrácodos constan de un par de valvas que forman el caparazón del individuo. La parte blanda del animal se divide en cabeza y tórax. En la cabeza podemos encontrar entre 5 a 7 apéndices, que conforman las antenas y la boca."
     },
@@ -163,7 +436,7 @@
             "filo": "No especificada",
             "clase": "No especificada"
         },
-        "época": "",
+        "epoca": "",
         "descripcion": "Se trata de madera que ha pasado por el proceso de fosilización.",
         "caracteristicas": "La madera petrificada se da cuando los tejidos vegetales de la madera van siendo reemplazados con el tiempo por los minerales del suelo, dando lugar a la petrificación. Como dato curioso, en los comienzos de la paleontología un trozo de madera fosilizada fue confundido por un fósil de dinosaurio, dando lugar a la invalidación de una especie: Aachenosaurus."
     },
@@ -176,7 +449,7 @@
             "filo": "Chordata",
             "clase": "Placodermi"
         },
-        "época": "Ludfordiense - Devónico",
+        "epoca": "Ludfordiense - Devónico",
         "descripcion": "Peces primitivos que poseen una mandíbula ósea así como una coraza.",
         "caracteristicas": "Los placodermos poseían una coraza de hueso a la altura de la cabeza y parte del tronco, siendo corazas independientes unidas por una articulación. La mandíbula de estos poseía pares de dientes que se trataban de extensiones de la propia coraza."
     },
@@ -189,7 +462,7 @@
             "filo": "No especificada",
             "clase": "No especificada"
         },
-        "época": "Devónico - Actualidad",
+        "epoca": "Devónico - Actualidad",
         "descripcion": "Plantas vasculares terrestres que carecen de semilla.",
         "caracteristicas": "Las pteridofitas engloban dos filos, los cuales son Lycophyta y Monilophyta. Las pteridofitas son plantas vasculares, teniendo así xilema y floema para transportar la savia a través del cuerpo de la planta. También carecen de semillas, debido a que se reproducen mediante esporas."
     },
@@ -202,7 +475,7 @@
             "filo": "Chordata",
             "clase": "Sauropsida"
         },
-        "época": "Triásico - Cretácico",
+        "epoca": "Triásico - Cretácico",
         "descripcion": "Reptiles voladores de la era Mesozoica.",
         "caracteristicas": "Los pterosaurios fueron los primeros vertebrados que adquirieron la habilidad del vuelo. Esta la consiguieron gracias al desarrollo de sus alas, que consistían en una membrana unida a uno de sus 4 dedos, el cual tenía una longitud mayor a los otros tres."
     },
@@ -215,7 +488,7 @@
             "filo": "Radiolaria",
             "clase": "No especificada"
         },
-        "época": "Cámbrico - Holoceno",
+        "epoca": "Cámbrico - Holoceno",
         "descripcion": "Protistas unicelulares.",
         "caracteristicas": "Los radiolarios tienen su cuerpo dividido en el endoplasma y el ectoplasma. Su esqueleto, al fosilizar, sirve como guía a la hora de datar la antigüedad de los fósiles. Su reproducción es asexual."
     },
@@ -228,7 +501,7 @@
             "filo": "Chordata",
             "clase": "Reptilia"
         },
-        "época": "Carbonífero - Actualidad",
+        "epoca": "Carbonífero - Actualidad",
         "descripcion": "Dientes pertenecientes a un reptil.",
         "caracteristicas": "Los dientes de los reptiles tienen una forma cónica característica y no poseen la misma especialización como los dientes de mamífero."
     },
@@ -241,7 +514,7 @@
             "filo": "Chordata",
             "clase": "Sauropsida"
         },
-        "época": "Triásico Superior - Cretácico Superior",
+        "epoca": "Triásico Superior - Cretácico Superior",
         "descripcion": "Reptiles herbívoros mayoritariamente cuadrúpedos de cuello largo.",
         "caracteristicas": "Los sauropodomorfos son uno de los dos grandes grupos dentro de los saurisquios. La mayoría de los sauropodomorfos eran cuadrúpedos, siendo solo bípedos sus miembros más antiguos. Se caracterizan por una dieta herbívora, sus cuellos de gran tamaño y por tener dentro de su grupo a los dinosaurios de mayor tamaño."
     },
@@ -254,7 +527,7 @@
             "filo": "Chordata",
             "clase": "Chondrichthyes"
         },
-        "época": "Jurásico temprano - Actualidad",
+        "epoca": "Jurásico temprano - Actualidad",
         "descripcion": "Dientes pertenecientes a un tiburón.",
         "caracteristicas": "Los dientes de tiburón se caracterizan por su forma generalmente triangular. Sus dientes se van reemplazando con el paso del tiempo, no teniendo así un número limitado de dientes disponibles como se da en los humanos."
     },
@@ -267,7 +540,7 @@
             "filo": "Chordata",
             "clase": "Sauropsida"
         },
-        "época": "Cretácico - Actualidad",
+        "epoca": "Cretácico - Actualidad",
         "descripcion": "Reptiles alargados que carecen de extremidades.",
         "caracteristicas": "Las serpientes se caracterizan principalmente por su falta de extremidades, dando lugar a que su forma de desplazarse sea arrastrándose por el suelo. A su vez, carecen de conducto auditivo externo, teniendo así un par de agujeros en los laterales de la cabeza por los que escuchan, aunque de manera limitada. Algunas de ellas, poseen veneno con el que matan a sus presas."
     },
@@ -280,7 +553,7 @@
             "filo": "Porifera",
             "clase": "No especificada"
         },
-        "época": "Precámbrico - Actualidad",
+        "epoca": "Precámbrico - Actualidad",
         "descripcion": "Animales invertebrados adaptados a la vida acuática.",
         "caracteristicas": "Las esponjas se alimentan mediante la filtración del agua que pasa por sus poros. Muy pocas esponjas tienen la habilidad de desplazarse. Todas las esponjas están formadas por células capaces de cambiar a cualquier tipo de célula en función de las necesidades que requiera en el momento."
     },
@@ -293,7 +566,7 @@
             "filo": "No especificada",
             "clase": "No especificada"
         },
-        "época": "No especificada",
+        "epoca": "No especificada",
         "descripcion": "Partículas de polen o de esporas de una planta.",
         "caracteristicas": "Gracias a estas partículas, las plantas se reproducen."
     },
@@ -306,7 +579,7 @@
             "filo": "Echinodermata",
             "clase": "Asteroidea"
         },
-        "época": "Ordovícico - Actualidad",
+        "epoca": "Ordovícico - Actualidad",
         "descripcion": "Animal equinodermo adaptado a la vida acuática con 5 o más brazos saliendo del centro.",
         "caracteristicas": "Las estrellas de mar, pese a su nombre, pueden poseer más de 5 brazos que salen desde el disco central, al contrario que los ofiuroideos que solo poseen 5. Poseen ventosas en sus brazos y una boca en la parte de abajo del disco central. Para desplazarse, cuentan con un sistema que les permite realizar movimientos utilizando el agua de su entorno."
     },
@@ -319,7 +592,7 @@
             "filo": "No especificada",
             "clase": "No especificada"
         },
-        "época": "Era Arcaica - Actualidad",
+        "epoca": "Era Arcaica - Actualidad",
         "descripcion": "Estructura mineral formada por el cúmulo de organismos unicelulares.",
         "caracteristicas": "Los estromatolitos se caracterizan por contar con varias capas finas que se van alternando entre colores claros y oscuros. En ellas podemos encontrar representadas las primeras formas de vida que hubo en el planeta."
     },
@@ -332,7 +605,7 @@
             "filo": "Chordata",
             "clase": "Sauropsida"
         },
-        "época": "Triásico Superior - Actualidad",
+        "epoca": "Triásico Superior - Actualidad",
         "descripcion": "Dinosaurios bípedos mayoritariamente carnívoros.",
         "caracteristicas": "Los terópodos cuentan con dos extremidades superiores de menor tamaño que sus extremidades traseras. Algunos terópodos llegaron a desarrollar plumas, siendo un ejemplo de ello las aves de hoy en día. La dieta de los terópodos fue variando a medida que iban evolucionando, siendo así que existen géneros herbívoros, insectívoros y carnívoros. La dieta se puede determinar gracias a los dientes presentes del espécimen."
     },
@@ -345,7 +618,7 @@
             "filo": "No especificada",
             "clase": "No especificada"
         },
-        "época": "No especificada",
+        "epoca": "No especificada",
         "descripcion": "Huellas fosilizadas de un animal.",
         "caracteristicas": "Gracias a las huellas fosilizadas podemos entender mejor el entorno en el que vivían los animales que las dejaron, así como descubrir comportamientos de los mismos."
     },
@@ -358,7 +631,7 @@
             "filo": "Arthropoda",
             "clase": "Trilobita"
         },
-        "época": "Cámbrico - Pérmico superior",
+        "epoca": "Cámbrico - Pérmico superior",
         "descripcion": "Artrópodos ya extintos de cuerpo plano y ovalado.",
         "caracteristicas": "Los trilobites constan de tres partes. Por una parte, la cabeza o cefalón, el tórax y el pigidio o cola. Todo su cuerpo estaba recubierto por un exoesqueleto. En ellos, se ha podido apreciar de manera clara la existencia de dimorfismo sexual."
     },
@@ -371,7 +644,7 @@
             "filo": "Chordata",
             "clase": "Sauropsida"
         },
-        "época": "Triásico Superior - Actualidad",
+        "epoca": "Triásico Superior - Actualidad",
         "descripcion": "Reptiles con caparazón.",
         "caracteristicas": "Las tortugas viven tanto en hábitats terrestres como en hábitats acuáticos. Su caparazón está formado por dos partes, el plastrón y el espaldar, formado por filas de placas. Ambas partes se unen por los laterales. Son animales ovíparos."
     }

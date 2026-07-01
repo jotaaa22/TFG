@@ -58,7 +58,7 @@ TFG/
 │       └── imagenes/
 │
 ├── data/
-│   └── (dataset no incluido)
+│   └── declaración_de_derechos_de_imágenes.md
 │
 ├── modelos/
 │   ├── entrenamiento/
@@ -114,7 +114,7 @@ POST /prediccion
 
 ### Parámetros
 
-- file: imagen a clasificar
+- archivo: imagen a clasificar
 
 ### Respuesta
 
@@ -140,7 +140,14 @@ Se incluye en el proyecto solo el modelo entrenado y el sistema de inferencia.
 
 ## Mejoras a implementar a futuro
 
-- Ampliación del dataset, ya sea agregando imágenes o usando los aportes de los usuarios.
-- Mejorar la precisión del modelo YOLO.
+
+- Ampliación del dataset actual.
+- Mejorar el modelo de predicción.
+- Mejorar la interfaz de usuario.
+- Implementar sistema de aportaciones de usuarios.
+- Traducción.
+- Despliegue de la aplicación.
+- Admisión de imágenes por URL.
+
 
 ---

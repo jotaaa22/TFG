@@ -1,7 +1,6 @@
 const archivoCargado = document.getElementById("archivoCargado");
 const boton = document.getElementById("botonPrediccion");
 const resultado = document.getElementById("resultado");
-const barraCarga = document.getElementById("barraCarga");
 
 boton.addEventListener("click", async () => {
     const archivo = archivoCargado.files[0];
@@ -14,30 +13,15 @@ boton.addEventListener("click", async () => {
     const formData = new FormData();
     formData.append("archivo", archivo);
 
-    barraCarga.style.display = "block";
-    barraCarga.value = 0;
-
-    let progreso = 0;
-    const tiempo = setInterval(() => {
-        if (progreso < 90){
-            progreso += 10;
-            barraCarga.value = progreso;
-        }
-    }, 200);
-
     try{
         const respuesta = await fetch("http://127.0.0.1:5000/prediccion", {
             method: "POST", body: formData
         });
 
         const info = await respuesta.json();
-        clearInterval(tiempo);
-        barraCarga.value = 100;
-
         mostrarResultado(info);
 
     } catch (error){
-        clearInterval(tiempo);
         console.error(error);
         alert("Error al realizar la conexión con el servidor");
     }

@@ -28,9 +28,7 @@ def predecir_imagen(ruta_imagen):
 
     if probabilidades is None:
         return "organismo o fósil desconocido", 0.0, []
-
-    clase_predecida = nombres_clase[probabilidades.top1]
-    clase_predecida = clase_predecida.lower().strip().replace(" ", "_")
+    
     confianza = float(probabilidades.top1conf)
 
     top_3_clases_predecidas = probabilidades.top5[:3]
@@ -44,6 +42,12 @@ def predecir_imagen(ruta_imagen):
             "confianza": round(float(probabilidades.data[i]), 3),
             "info": datos_info.get(clase, {})
         })
+    
+    if confianza < 0.50:
+        return "La probabilidad es demasiado baja como para afirmar con seguridad que el fósil pertenezca a una clase.", confianza, predicciones
+    
+    clase_predecida = nombres_clase[probabilidades.top1]
+    clase_predecida = clase_predecida.lower().strip().replace(" ", "_")
 
     return clase_predecida, confianza, predicciones
 

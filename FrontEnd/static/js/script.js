@@ -6,9 +6,14 @@ boton.addEventListener("click", async () => {
     const archivo = archivoCargado.files[0];
 
     if(!archivo){
-        alert("Seleccione una imagen para analizar.");
+        mostrarError("Seleccione una imagen para analizar.");
         return;
     }
+
+    if (!archivo.name.toLowerCase().endsWith(".jpg") && !archivo.name.toLowerCase().endsWith(".jpeg") && !archivo.name.toLowerCase().endsWith(".png")){
+        mostrarError("Formato no válido. Solo se permiten imágenes JPG, JPEG o PNG.");
+        return;
+        }
 
     const formData = new FormData();
     formData.append("archivo", archivo);
@@ -17,8 +22,14 @@ boton.addEventListener("click", async () => {
         const respuesta = await fetch("http://127.0.0.1:5000/prediccion", {
             method: "POST", body: formData
         });
-
+        
         const info = await respuesta.json();
+
+        if(!respuesta.ok){
+            mostrarError(data.error || "Error al procesar la imagen.");
+            return;
+        }
+
         mostrarResultado(info);
 
     } catch (error){
@@ -84,6 +95,14 @@ function mostrarResultado(info){
                     </div>
                 `).join("")}
             </div>
+        </div>
+    `;
+}
+
+function mostrarError(mensaje){
+    resultado.innerHTML = `
+        <div class="alert alert-danger mt-4" role="alert">
+            ${mensaje}
         </div>
     `;
 }

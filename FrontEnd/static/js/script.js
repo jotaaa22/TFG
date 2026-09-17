@@ -26,7 +26,7 @@ boton.addEventListener("click", async () => {
         const info = await respuesta.json();
 
         if(!respuesta.ok){
-            mostrarError(data.error || "Error al procesar la imagen.");
+            mostrarError(info.error || "Error al procesar la imagen.");
             return;
         }
 
